@@ -19,4 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('affiliate.urls')),
+    path('sai/', include('profile1.urls')),
 ]
